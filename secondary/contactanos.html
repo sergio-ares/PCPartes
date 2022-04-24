@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PC Partes</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Sergio A Ares">
+        <link rel="stylesheet" type="text/css" href="../style/estilo.css">
+    </head>
+    <body>
+        <header>
+            <a href="../index.html" id="title"><img src="../img/logo.png" alt="logo" height="130px"></a>
+            <nav>
+                <ul>
+                    <a href="processors.html" class="buttonBox">
+                        <li>Procesadores</li>
+                    </a>
+                    <a href="graphic.html" class="buttonBox">
+                        <li>Graficas</li>
+                    </a>
+                    <a href="ram.html" class="buttonBox">
+                        <li>Memoria RAM</li>
+                    </a>
+                    <a href="alim.html" class="buttonBox">
+                        <li>Fuentes de alimentacion</li>
+                    </a>
+                    <a href="memory.html" class="buttonBox">
+                        <li>Memoria</li>
+                    </a>
+                    <a href="contactanos.html" class="buttonBox">
+                        <li>Contactanos</li>
+                    </a>
+                    <a href="signIn.html" class="buttonBox">
+                        <li>Sign In</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <h2 id="borrar" class="pageName">Contactanos</h2>
+        <p id="borrar1" style="text-align: center; font-size: 20px;">Rellena este formulario para que nos pongamos en contacto con usted</p>
+        <div id="borrar2">
+            <form>
+                <br> <br>
+                <input class="normalInput" type="text" placeholder="Nombre:"> <br> <br>
+                <input class="normalInput" type="text" placeholder="Apellidos:"> <br> <br>
+                <input class="normalInput" type="email" placeholder="E-mail:"> <br> <br>
+                <input class="largeInput" type="text" size="30" maxlength="240" placeholder="Escriba su problema:"> <br> <br>
+                <a onclick="send()" class="buttonBox2">Enviar</a>
+            </form>
+        </div>
+        <h2 id="output"></h2>
+    </body>
+    <script>
+        function send() {
+            const element = document.getElementById("borrar");
+            const element1 = document.getElementById("borrar1");
+            const element2 = document.getElementById("borrar2");
+            element.remove();
+            element1.remove();
+            element2.remove();
+            const output = document.getElementById("output").innerHTML="Gracias por contactarnos, revisaremos el problema";
+        }
+    </script>
+</html>

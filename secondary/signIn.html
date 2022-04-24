@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PC Partes</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Sergio A Ares">
+        <link rel="stylesheet" type="text/css" href="../style/estilo.css">
+    </head>
+    <body>
+        <header>
+            <a href="../index.html" id="title"><img src="../img/logo.png" alt="logo" height="130px"></a>
+            <nav></nav>
+        </header>
+        <h2 class="pageName" id="borrar">Crea tu cuenta</h2>
+        <p style="text-align: center; font-size: 20px;" id="borrar1">Introduce tu informacion para crear una cuenta</p> <br>
+        <div id="borrar2">
+            <form>
+                <input type="text" placeholder="Nombre"> <br> <br>
+                <input type="text" placeholder="Apellidos"> <br> <br>
+
+                <label>Fecha de nacimiento:</label>
+                <input type="date"> <br> <br>
+                
+                <label>Sexo:</label>
+                <input type="radio" name="sexo">Hombre</input>
+                <input type="radio" name="sexo">Mujer</input>
+                <input type="radio" name="sexo">Otro</input> <br> <br>
+                
+                <input type="email" placeholder="E-mail"> <br> <br>
+
+                <label>Intereses:</label> <br>
+                <input type="checkbox" name="interes">Hardware</input> <br>
+                <input type="checkbox" name="interes">Software</input> <br>
+                <input type="checkbox" name="interes">Sistemas operativos</input> <br>
+                <input type="checkbox" name="interes">Robotica</input> <br> <br>
+
+                <select name="objetivo">
+                    <option>¿Porque quieres formar parte de la web?</option>
+                    <option>Compra de hardware</option>
+                    <option>Entrada a foros</option>
+                    <option>Acceso a informacion tecnologica</option>
+                </select> <br> <br>
+                <a onclick="send()" class="buttonBox2">Crea tu cuenta</a>
+            </form>
+        </div>
+        <h2 id="output"></h2>
+    </body>
+    <script>
+        function signin() {
+            const element = document.getElementById("borrar");
+            const element1 = document.getElementById("borrar1");
+            const element2 = document.getElementById("borrar2");
+            element.remove();
+            element1.remove();
+            element2.remove();
+            const output = document.getElementById("output").innerHTML="Gracias por introducir tus datos, tu cuenta sera creada";
+        }
+    </script>
+</html>

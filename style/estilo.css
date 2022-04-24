@@ -1,0 +1,162 @@
+* {
+    background-color: rgb(201, 220, 238);
+    box-sizing: border-box;
+    margin: 0;
+}
+.mainPageImg {
+    width: 100%;
+}
+iframe {
+    width: 60%;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+header {
+    background-color: rgb(124, 176, 219);
+    text-align: center;
+    size: 2em;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+#title {
+    background-color: rgb(124, 176, 219);
+    display: inline-block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#title img {
+    background-color: rgb(124, 176, 219);
+}
+
+h1 {
+    text-align: center;
+}
+.pageName {
+    text-align: center;
+    font-size: 30px;
+}
+
+.about {
+    font-size: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(124, 176, 219);
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+ul {
+    background-color: rgb(124, 176, 219);
+}
+.buttonBox {
+    background-color: rgb(86, 153, 209);
+    display: inline-block;
+    position: static;
+    margin: 5px;
+    padding: 15px;
+    border: 3.5px solid black;
+    border-radius: 25px;
+}
+.buttonBox:hover {
+    background-color: rgb(219, 231, 228);
+    display: inline-block;
+    position: static;
+    margin: 5px;
+    padding: 15px;
+    border: 3.5px solid rgb(86, 153, 209);
+    border-radius: 20px;
+}
+
+.buttonBox li {
+    background-color: rgb(86, 153, 209);
+    color: black;
+}
+.buttonBox:hover li {
+    background-color: rgb(219, 231, 228);
+}
+
+.presentation img {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 300px;
+}
+
+.object {
+    height: 200px;
+}
+iframe {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.articulo {
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.articulo h3 {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.articulo p {
+    margin-left: 40px;
+    margin-right: 40px;
+    position: absolute;
+    display: inline-block;
+}
+
+a img {
+    display: inline-block;
+}
+
+
+/* contacto */
+div {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 25%;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+input[type="email"] {
+    width: 25%;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.buttonBox2 {
+    background-color: rgb(86, 153, 209);
+    display: inline-block;
+    width: 10%;
+    position: static;
+    margin: 5px;
+    padding: 4px;
+    border: 3.5px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.buttonBox2:hover {
+    background-color: rgb(219, 231, 228);
+    display: inline-block;
+    width: 10%;
+    position: static;
+    margin: 5px;
+    padding: 4px;
+    border: 3.5px solid rgb(86, 153, 209);
+    border-radius: 20px;
+}
